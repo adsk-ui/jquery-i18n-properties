@@ -1,0 +1,25 @@
+{
+  "name": "jquery.i18n.properties",
+  "version": "1.1.1",
+  "authors": [
+    "vigoss <806717031@qq.com>"
+  ],
+  "description": "i18n solution for web front end",
+  "main": "jquery.i18n.properties.js",
+  "keywords": [
+    "i18n",
+    "jquery"
+  ],
+  "license": "GPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~1.10.2"
+  },
+  "devDependencies": {}
+}
