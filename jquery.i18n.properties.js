@@ -53,6 +53,7 @@ $.i18n.properties = function(settings) {
         path:           '',  
         mode:           'vars',
         cache:			false,
+        async:          true,
         encoding:       'UTF-8',
         callback:       null
     };
@@ -242,7 +243,7 @@ $.i18n.browserLang = function() {
 function loadAndParseFile(filename, settings) {
 	$.ajax({
         url:        filename,
-        async:      false,
+        async:      settings.async,
         cache:		settings.cache,
         contentType:'text/plain;charset='+ settings.encoding,
         dataType:   'text',
